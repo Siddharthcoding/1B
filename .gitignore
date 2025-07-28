@@ -10,6 +10,8 @@
 !/llm_manager.py
 !/retriever.py
 !/persona_analyzer.py
+!/model_online.py
+!/setup_build_tools.ps1
 
 !/input/
 !/input/**
