@@ -56,11 +56,11 @@ In summary, 1B empowers privacy-conscious, scalable document analysis with moder
 Finally run the below command to run the docker:
 
 ```bash
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output chiranjeet12/adobe_round1b:somerandomidentifier
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output chiranjeet12/adobe_round1b:latest
 ```
 
 **User first need network to  download the image locally then can use the below without network command**
 
 ```bash
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output chiranjeet12/  -network none adobe_round1b:somerandomidentifier
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output  -network none chiranjeet12/adobe_round1b:latest
 ```
