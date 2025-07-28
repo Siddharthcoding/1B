@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "input_documents": [
+      "CN Week 1.pdf",
+      "CN week 2.pdf"
+    ],
+    "persona": "Student",
+    "job_to_be_done": "What is a protocol",
+    "timestamp": "2025-07-28T14:51:43.700567"
+  },
+  "extracted_sections": [
+    {
+      "content": "Protocols\nIn computer networks, communication occurs \nbetween entities in different systems. However, \ntwo entities can not simply send bit streams to \neach other and expect to be understood.\nFor communication to occur, the entities must \nagree on a protocol. A protocol is a set of rules that \ngovern data communications. \nA protocol defines what is communicated, how it is \ncommunicated, and when it is communicated. \nSyntax refers to the structure or format of the data, meaning \nthe order in which they are presented. For example, a simple \nprotocol might expect the first 8 bits of data to be the \naddress of the sender, the second 8 bits to be the address of \nthe receiver, and the rest of the stream to be the message \nitself.\nSemantics refers to the meaning of each section of bits.\nHow is a particular pattern to be interpreted, and what \naction is to be taken based on that interpretation? For \nexample, does an address identify the route to be taken or \nthe final destination of the message?\nTiming refers to two characteristics: when data should be \nsent and how fast they can be sent. For example, if a sender \nproduces data at 100 Mbps but the receiver can process data \nat only 1 Mbps, the transmission will overload the receiver \nand some data will be lost.\nThe key elements of a protocol \nare syntax, semantics, and timing.\nDr.Sushruta Mishra (CN lecture notes)",
+      "page": 13,
+      "source": "CN week 2.pdf",
+      "file_path": "input\\CN week 2.pdf",
+      "importance_rank": 1
+    },
+    {
+      "content": "Peer-To-Peer network\nØ Peer-To-Peer network is a network in \nwhich all the computers are linked together \nwith equal privilege and responsibilities for \nprocessing the data.\nØ Peer-To-Peer network is useful for small \nenvironments, usually up to 10 computers.\nØ Peer-To-Peer network has no dedicated \nserver.\nØ Special permissions are assigned to each \ncomputer for sharing the resources, but this can \nlead to a problem if the computer with the \nresource is down.\nClient/Server Network\nØ Client/Server network is a network model \ndesigned for the end users called clients, to \naccess the resources such as songs, video, etc. \nfrom a central computer known as Server.\nØ The central controller is known as a server \nwhile all other computers in the network are \ncalled clients.\nØ A server performs all the major operations \nsuch as security and network management.\nØ A server is responsible for managing all the \nresources such as files, directories, printer, etc.\nØ All the clients communicate with each \nother through a server. For example, if client1 \nwants to send some data to client 2, then it first \nsends the request to the server for the \npermission. The server sends the response to \nthe client 1 to initiate its communication with \nthe client 2.\nDr.Sushruta Mishra (CN lecture notes)",
+      "page": 26,
+      "source": "CN Week 1.pdf",
+      "file_path": "input\\CN Week 1.pdf",
+      "importance_rank": 2
+    },
+    {
+      "content": "Functions of Session layer:\nØ Dialog control: Session layer acts as a dialog controller that creates \na dialog between two processes or we can say that it allows the \ncommunication between two processes which can be either half-duplex \nor full-duplex.\nØ Synchronization: Session layer adds some checkpoints when \ntransmitting the data in a sequence. If some error occurs in the middle \nof the transmission of data, then the transmission will take place again \nfrom the checkpoint. This process is known as Synchronization and \nrecovery.\nDr.Sushruta Mishra (CN lecture notes)",
+      "page": 25,
+      "source": "CN week 2.pdf",
+      "file_path": "input\\CN week 2.pdf",
+      "importance_rank": 3
+    },
+    {
+      "content": "OSI Model\nThere are numbers of users who use computer network and are \nlocated over the world. So to ensure, national and worldwide \ndata communication, systems must be developed which are \ncompatible to communicate with each other.\nISO developed a standard. ISO stands for International \norganization of Standardization. This is called a model for \nOpen System Interconnection (OSI) and is commonly known \nas OSI model.\nThe purpose of the OSI model is to show how to facilitate \ncommunication between different systems without requiring \nchanges to the logic of the underlying hardware and software.\nOSI consists of seven layers, and each layer performs a particular \nnetwork function. OSI model divides the whole task into seven \nsmaller and manageable tasks. Each layer is assigned a \nparticular task.\nDr.Sushruta Mishra (CN lecture notes)",
+      "page": 19,
+      "source": "CN week 2.pdf",
+      "file_path": "input\\CN week 2.pdf",
+      "importance_rank": 4
+    },
+    {
+      "content": "•\nA network is a set of devices (often referred to as nodes) connected \nby communication links so that various devices can interact with each \nother through a network.\n•\nA node can be a computer, printer, or any other device capable of \nsending and/or receiving data generated by other nodes on the \nnetwork.\n•\nThe aim of the computer network is the sharing of data & \nresources among various devices.\n•\nMost networks use distributed processing, in which a task is \ndivided among multiple computers. Instead of one single large \nmachine being responsible for all aspects of a process, separate \ncomputers handle a subset.\nDr.Sushruta Mishra (CN lecture notes)",
+      "page": 22,
+      "source": "CN Week 1.pdf",
+      "file_path": "input\\CN Week 1.pdf",
+      "importance_rank": 5
+    }
+  ],
+  "llm_analysis": "You are an expert assistant.\n\nSection 1 (page 13): Protocols In computer networks, communication occurs  between entities in different systems. However,  two entities can not simply send bit streams to  each other and expect to be understood. For comm...\n\nSection 2 (page 26): Peer-To-Peer network Ø Peer-To-Peer network is a network in  which all the computers are linked together  with equal privilege and responsibilities for  processing the data. Ø Peer-To-Peer network is ...\n\nSection 3 (page 25): Functions of Session layer: Ø Dialog control: Session layer acts as a dialog controller that creates  a dialog between two processes or we can say that it allows the  communication between two process...\n\nPersona: Student\nJob: What is a protocol\n\nProvide a concise structured analysis.\nSection 4 (page 26): Protocols In computer networks, communication occurs  \nSection 5 (page 27): Protocols In computer networks, communication occurs  \nSection 6 (page 28): Protocols In computer networks, communication occurs  \nSection 7 (page 29): Protocols In computer networks, communication occurs  \nSection 8 (page 30): Protocols In computer networks, communication occurs  \nSection 9 (page 31): Protocols In computer networks, communication occurs  \nSection 10 (page 32): Protocols In computer networks, communication occurs  \nSection 11 (page 33): Protocols In computer networks, communication occurs  \nSection 12 (page 34): Protocols In computer networks, communication occurs  \nSection 13 (page 35): Protocols In computer networks, communication occurs  \nSection 14 (page 36): Protocols In computer networks, communication occurs  \nSection 15 (page 37): Protocols In computer networks, communication occurs  \nSection 16 (page 38): Protocols In computer networks, communication occurs  \nSection 17 (page 39): Protocols In computer networks, communication occurs  \nSection 18 (page 40): Protocols In computer networks, communication occurs  \n",
+  "sub_section_analysis": []
+}
