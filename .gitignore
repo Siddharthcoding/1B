@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# But do track these files and folders
+!/config.py
+!/main.py
+!/utils.py
+!/document_loader.py
+!/embeddings_manager.py
+!/llm_manager.py
+!/retriever.py
+!/persona_analyzer.py
+
+!/input/
+!/input/**
+!/output/
+!/output/**
+
+!/.gitattributes
+
+# Un-ignore model cache
+!/hf_cache/
+!/hf_cache/**
+!requirements.txt
+!.gitignore
